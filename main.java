@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-//feature update 
-=======
-//bug fix 
->>>>>>> bug-fix
+public class Main { public static void main(String[] args){ System.out.println("Hello Git"); }} 
