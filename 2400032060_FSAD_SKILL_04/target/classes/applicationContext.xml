@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Constructor Injection -->
+    <bean id="student1" class="com.spring.entity.Student">
+        <constructor-arg value="101"/>
+        <constructor-arg value="Manvith"/>
+        <constructor-arg value="CSE"/>
+        <constructor-arg value="3"/>
+    </bean>
+
+    <!-- Setter Injection -->
+    <bean id="student2" class="com.spring.entity.Student">
+        <constructor-arg value="102"/>
+        <constructor-arg value="Sai"/>
+        <constructor-arg value="IT"/>
+        <constructor-arg value="2"/>
+
+        <property name="course" value="AI"/>
+        <property name="year" value="4"/>
+    </bean>
+
+</beans>
