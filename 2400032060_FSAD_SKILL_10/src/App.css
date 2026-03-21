@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  margin: 5px;
+  background: blue;
+  color: white;
+  border: none;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
