@@ -1,0 +1,74 @@
+/* Full page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+/* Center container */
+div {
+  text-align: center;
+}
+
+/* Form box */
+form, .box {
+  background: white;
+  padding: 25px;
+  margin: 60px auto;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Navbar */
+nav {
+  background: #333;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav button {
+  background: red;
+  margin-left: 10px;
+}
+
+nav button:hover {
+  background: darkred;
+}
+
+/* Headings */
+h2 {
+  color: #333;
+}
